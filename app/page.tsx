@@ -7,6 +7,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold mb-4">Mi Tienda Online</h1>
       <p className="text-lg mb-6">Bienvenido a nuestra tienda virtual</p>
       
+      {/* Estos sí son client components, pero eso está bien */}
       <NavigationButtons />
       <SearchForm />
       
